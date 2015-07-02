@@ -1,0 +1,34 @@
+compile
+idea
+reload
+update
+idea
+gen-idea
+exit
+compile
+reStart
+compile
+test:compile
+testOnly co.s4n.CaseClassMergeTest
+;compile;test:compile
+reStart 
+test:compile
+testOnly co.s4n.HListTest
+test:compile
+testOnly co.s4n.HListTest
+test:compile
+testOnly co.s4n.MonoidExamples
+test:compile
+testOnly co.s4n.TupleTest
+test:compile
+testOnly co.s4n.RecordTest
+test:compile
+testOnly co.s4n.ScrapYourBoilerCode
+test
+run
+test:compile
+testOnly co.s4n.SizedCollection
+test:compile
+testOnly co.s4n.PathDependantTypes
+test:compile
+testOnly co.s4n.SortableTest
